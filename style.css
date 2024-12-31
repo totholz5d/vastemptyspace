@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+
+    img {
+        filter: invert(1);
+    } 
+
+    div {
+    /*  : rgb(15, 17, 18) !important;
+      : rgb(241, 238, 231) !important;*/
+
+      --fbc-primary-text: blue !important;
+      --fbc-secondary-text: blue !important;
+    }
+
+/*    body {
+     : rgb(15, 17, 18) !important;
+      : rgb(241, 238, 231) !important;
+
+      --fbc-primary-text: blue !important;
+      --fbc-secondary-text: blue !important;
+    }*/
+
+    body {
+  background: black;
+  color: white;
+}
+}
